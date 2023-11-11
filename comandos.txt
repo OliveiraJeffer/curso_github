@@ -1,0 +1,3 @@
+git init(para iniciar um repositorio numa pasta)
+git add . / git add nomedoarquivo.txt (para adicionar o arquivo)
+git commit -m "descrição detalhada" / git commit nomedoarquivo.txt -m "descrição detalhada" (para commitar as alterações)
