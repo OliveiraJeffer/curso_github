@@ -1,6 +1,8 @@
 git init(para iniciar um repositorio numa pasta)
 git add . / git add nomedoarquivo.txt (para adicionar o arquivo)
 git commit -m "descrição detalhada" / git commit nomedoarquivo.txt -m "descrição detalhada" (para commitar as alterações)
+git push (enviar as alterações do seu repositorio para o github)
+git pull (baixar as alterações feitas no github para o seu repositorio)
 git log (mostra todos os commits feitos no repositorio, desse jeito da pra ver quais as alterações que foram feitas desde o inicio)
 git checkout nomedoarquivo.txt (reverte as alterações feitas naquele arquivo e volta ele pra ultima versao que foi commitada)
 git reset --hard origin/main (reverte os arquivos para o ultimo commit dado, parecido com o checkout mas vale para quando voce fez alterações em varios arquivos)
